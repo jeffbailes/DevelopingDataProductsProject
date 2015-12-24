@@ -38,7 +38,7 @@ shinyServer(
                         "Fill your car with rocks - if your car becomes heavy enough, you can just reverse your way there!",
                         "Wait a couple of decades - your car will surely be more efficient in the future."),
                       1)
-        paste("You're pretty skrewed, however, here is a helpful hint to maximise your chance of success:", tmp)
+        paste("You're pretty skrewed, however, here is a helpful hint to maximise your chance of success:", tmp, sep='\n')
     }
     })
   }
