@@ -1,12 +1,12 @@
-## Help for "Are You Skrewed?".
+## Help for "Are You Screwed?".
 
-Hello and welcome to "Are You Skrewed?".
-Have you ever been driving in the middle of no-where and suddenly thought to yourself: 'that petrol gauge looks a bit low, am I skrewed?'?
+Hello and welcome to "Are You Screwed?".
+Have you ever been driving in the middle of no-where and suddenly thought to yourself: 'that petrol gauge looks a bit low, am I screwed?'?
 This webapp is here to help.
 
 All you need to do is to input your car's details, how much petrol you have, and how far it is to the next petrol station and let this app do the rest.
 The data used is the state-of-the-art 70s `mtcars` dataset.
 
-### I'm Skrewed, so now what?
-The webapp has told you you're skrewed, is there anything you can do?
-Luckily in the event that we determine that you're skrewed, we give 'helpful' hints on how you can maximise the distance your car will take you.
+### I'm Screwed, so now what?
+The webapp has told you you're screwed, is there anything you can do?
+Luckily in the event that we determine that you're screwed, we give 'helpful' hints on how you can maximise the distance your car will take you.

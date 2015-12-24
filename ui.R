@@ -1,6 +1,6 @@
 library(shiny)
 shinyUI(pageWithSidebar(
-  headerPanel("Are You Skrewed?"),
+  headerPanel("Are You Screwed?"),
   sidebarPanel(
     radioButtons("transmission", "Transmission:",
                  c("Manual" = "manual",

@@ -27,18 +27,18 @@ shinyServer(
     output$calculatedDistance <- renderPrint({prediction()})
     output$outText <- renderText({
       if (prediction() > input$dist) {
-        "No problem!  You're not skrewed at all!  You can defo make it to the next petrol station."
+        "No problem!  You're not screwed at all!  You can defo make it to the next petrol station."
       } else if (-prediction() > input$dist) {
-        "You're not too skrewed.  You can make it to the next petrol station, but only if you drive in reverse the whole way."
+        "You're not too screwed.  You can make it to the next petrol station, but only if you drive in reverse the whole way."
       } else if (input$transmission == "automatic") {
-        "You're mostly skrewed, though have you considered converting your car to manual before you set off?"
+        "You're mostly screwed, though have you considered converting your car to manual before you set off?"
       } else {
         tmp <- sample(c("Take a hammer to your engine - if you reduce your car's kilowatt output, your fuel efficiency will increase!",
                         "Accelerate slower - increasing your car's 402 metre time makes it more fuel efficient!",
                         "Fill your car with rocks - if your car becomes heavy enough, you can just reverse your way there!",
                         "Wait a couple of decades - your car will surely be more efficient in the future."),
                       1)
-        paste("You're pretty skrewed, however, here is a helpful hint to maximise your chance of success:", tmp, sep='\n')
+        paste("You're pretty screwed, however, here is a helpful hint to maximise your chance of success:", tmp, sep='\n')
     }
     })
   }
